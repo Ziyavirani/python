@@ -1,0 +1,14 @@
+def divide(x, y):
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero!")
+    else:
+        print(f"Result of division: {result}")
+    finally:
+        print("Division operation complete.")
+
+
+# Test cases
+divide(10, 2)  # Output: Result of division: 5.0\nDivision operation complete.
+divide(10, 0)  # Output: Error: Cannot divide by zero!\nDivision operation complete.
