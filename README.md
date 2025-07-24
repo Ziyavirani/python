@@ -35,5 +35,5 @@ while True:
         elif choice == '4':
             print("Result:", divide(num1, num2))
     else:
-        print("Invalid Input")
+        print("Invalid Output")
 
